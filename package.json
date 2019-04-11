@@ -1,0 +1,21 @@
+{
+  "name": "database-server-nodejs",
+  "version": "1.0.0",
+  "description": "A project for the recurse center's database server pairing exercise",
+  "main": "db.js",
+  "scripts": {
+    "dev": "nodemon db.js",
+    "start": "node db.js",
+    "test": "npm test"
+  },
+  "keywords": [
+    "nodejs",
+    "database"
+  ],
+  "author": "Kim Schlesinger",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.11"
+  }
+}
